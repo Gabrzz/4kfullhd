@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Nunito:wght@300;500;800&display=swap');
+
+:root {
+    --corFundo: #000000;
+    --corPrincipal: #4c0a00;
+    --corSecundária: #fdfdfd;
+    --corTerciaria: #ca5152;
+    --text1: #ffffff;
+    --text2: #999999;
+    --footer: #BBBBBB;
+    --footer2: #5c5b5b;
+}
+
+
+/* TAGS */
+
+body {
+    background-color: var(--corFundo);
+    color: white;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    color: var(--corSecundária);
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    letter-spacing: 70px;
+    font-size: 30px;
+    padding: 300px;
+    background-image: url(./img/mand3.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 120%;
+    margin: 0px;
+}
+
+footer {
+    margin-top: 400px; 
+    margin-bottom: 100px;
+    padding: 100px;
+    display: inline;
+    text-align: center;
+    color: var(--footer);
+}
+footer img {
+    max-width: 25px;
+    margin-bottom: 25px;
+}
+footer img:hover {
+    opacity: 0.6;
+}
+footer a {
+    margin: 15px;
+}
+footer h1{
+    font-size: 12px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+footer p{
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    word-spacing: 30px;
+}
+
+
+
+/* ID's */
+
+
+
+
+/* Classes */
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    position: fixed;
+    top: 0;
+}
+.dropbtn img {
+    max-width: 30px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 110px;
+    margin-left: 22px;
+    z-index: 1;
+    float: left;
+    top: 50px;
+    position: fixed;
+    border-left: solid var(--corSecundária) 2px;
+}
+
+.dropdown-content a {
+    color: var(--text1);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: var(--text2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.text {
+    background-image: url(./djarin/dj4.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 60%;
+    height: 1300px;
+}
+
+.text h1 {
+    font-size: 24px;
+    color: var(--text1);
+    line-height: 40px;
+}
+
+.text p {
+    font-size: 16px;
+    color: var(--text2);
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+
+.text a {
+    text-decoration: underline var(--text2) dotted 2px;
+    color: var(--text2);
+}
+
+.content {
+    margin: 40px 130px 40px 130px;
+    max-width: 500px;
+    padding-bottom: 100px;
+    padding-left: 15px;
+}
+
+.razor {
+    margin: auto;
+    max-width: 1200px;
+    text-align: center;
+    display: block;
+}
+.razor a {
+    text-decoration: none;
+    color: var(--text1);
+}
+.razor h1 {
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    top: 0;
+    padding: 10px;
+    font-size: 35px;
+    border-bottom: solid var(--corSecundária) 2px;
+    max-width: 500px;
+}
+.razor p {
+    color: var(--text2);
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+.razor img {
+    max-width: 1000px;
+    text-align: center center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.razor2{
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 250px;
+    padding: 10px;
+}
+
+.razor-btn {
+    min-width: 500px;
+    margin: 100px;
+    margin-top: 200px;
+    padding: 20px 100px;
+    background-color: transparent;
+    color: var(--text2);
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid var(--text2) 1px;
+}
+.razor-btn:hover {
+    color: var(--text1);
+    border-color: var(--text1);
+}
