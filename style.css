@@ -10,6 +10,7 @@
     --text2: #999999;
     --footer: #BBBBBB;
     --footer2: #5c5b5b;
+    --equip1: #151515;
 }
 
 
@@ -71,6 +72,34 @@ footer p{
 /* ID's */
 
 
+#img1 {
+    max-width: 600px;
+    box-shadow: 0px 0px 5px white;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+#img2 {
+    max-width: 200px;
+}
+
+#img3 {
+    max-width: 400px;
+}
+
+#img4 {
+    max-width: 550px;
+    box-shadow: 0px 0px 5px white;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+#img5 {
+    min-width: 600px;
+    box-shadow: 0px 0px 5px white;
+    border: solid 1px white;
+    border-radius: 5px;
+}
 
 
 /* Classes */
@@ -211,4 +240,67 @@ footer p{
 .razor-btn:hover {
     color: var(--text1);
     border-color: var(--text1);
+}
+
+.e-header {
+    background-image: url(./djarin/dj5.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: right;
+    max-width: 1400px;
+    width: 70%;
+    letter-spacing: 20px;
+    padding: 10px;
+    text-align: center center;
+    padding: 200px 120px;
+    color: var(--text2);
+}
+.e-header strong {
+    color: var(--text1);
+}
+
+.e-content {
+    background-color: var(--equip1);
+    border: solid var(--equip1) 2px;
+    border-radius: 12px;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.e-content img {
+    max-width: 120%;
+    right: 0;
+}
+.e-content h1 {
+    font-size: 40px;
+    color: var(--text1);
+    line-height: 42px;
+    max-width: 500px;
+}
+
+.e-content p {
+    font-size: 18px;
+    color: var(--text2);
+    line-height: 26px;
+    max-width: 500px;
+    left: 0;
+}
+
+.any {
+    padding: 70px;
+}
+
+.f-header{
+    background-image: none;
+    letter-spacing: normal;
+    padding: 0;
+    margin: auto;
 }
