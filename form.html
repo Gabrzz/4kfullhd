@@ -11,31 +11,63 @@
 </head>
 
 <body>
-    
+
     <header class="f-header">Me contrate</header>
 
-    <div>
-        <form action="">
+    <div class="f-content">
+        <div class="f-form">
+            <form action="" method="post" name="contratar">
 
+                <input class="f-input" type="text" placeholder="Nome">
 
+                <input class="f-input" type="email" placeholder="Email">
 
-        </form>
-    </div>
+                <select name="" class="f-input f-option">
+                    <option value="">Local da missão</option>
+                    <option value="">==/==</option>
+                    <option value="">Núcleo</option>
+                    <option value="">Colônias</option>
+                    <option value="">Orla interior</option>
+                    <option value="">Orla média</option>
+                    <option value="">Orla exterior</option>
+                    <option value="">Região da expansão</option>
+                    <option value="">Regiões Desconhecidas</option>
+                    <option value="">Espaço Selvagem</option>
+                </select>
 
-    <div class="dropdown">
-        <button class="dropbtn"><img src="./icons/menu-white.png" alt="menu"></button>
-        <div class="dropdown-content">
-            <a href="./index.html">Inicio</a>
-            <a href="./equip.html">Equip.</a>
-            <a href="#">Grogu</a>
+                <textarea name="" class="f-input f-text" placeholder="Digite os detalhes da missão" cols="20" rows="7"></textarea>
+                    
+                <div class="f-terms">
+                       <p>Li e aceito os <a href="./terms.html" target="_blank"><strong>termos</strong></a> do contrato</p><input type="checkbox" name="Professores ruins" class="f-input">
+                </div>
+             
+                <div class="f-button-div"><button class="f-button">Contratar</button></div>
+
+            </form>
+        </div>
+
+        <div>
+            <img class="f-img" src="./djarin/dj3.png" alt="">
         </div>
     </div>
 
+    <div class="dropdown">
+        <button class="dropbtn"><img src="./icons/menu-white2.png" alt="menu"></button>
+        <div class="dropdown-content">
+            <a href="./index.html">Início</a>
+            <a href="./equip.html">Equip.</a>
+            <a href="./grogu.html">Grogu</a>
+        </div>
+    </div>
+
+    <div class="any"></div>
+
     <footer>
         <nav>
-            <a href="https://www.starwars.com"><img src="./icons/r2d2.png" alt="r2d2"></a>
-            <a href="https://github.com/majucnn/4fullhd"><img src="./icons/github.png" alt=""></a>
+            <a href="https://www.starwars.com" target="_blank"><img src="./icons/r2d2.png" alt="r2d2"></a>
+            <a href="https://github.com/majucnn/4fullhd" target="_blank"><img src="./icons/github.png" alt=""></a>
         </nav>
+        <h1>© 9 DBY The Mandalorian. Todos os direitos recompensados.</h1>
         <h1>Trabalho feito por:</h1>
         <p>GaLo Felipe Maju Vitória</p>
     </footer>
