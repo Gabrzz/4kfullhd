@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Nunito:wght@300;500;800&family=Poppins:wght@400;500;700&display=swap');
+
+:root {
+    --corFundo: #000000;
+    --corPrincipal: #4c0a00;
+    --corSecundária: #5a5959;
+    --corTerciaria: #404040;
+    --text1: #ffffff;
+    --text2: #999999;
+    --footer: #BBBBBB;
+    --footer2: #5c5b5b;
+    --equip1: #151515;
+}
+
+
+/* TAGS */
+
+body {
+    background-color: var(--corFundo);
+    color: white;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    color: var(--corSecundária);
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    word-spacing: 70px;
+    font-size: 30px;
+    padding: 300px 200px;
+    background-image: url(./img/mand3.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 120%;
+    margin: 0px;
+    color: var(--text1);
+}
+
+footer {
+    margin-top: 400px;
+    margin-bottom: 100px;
+    padding: 100px;
+    display: inline;
+    text-align: center;
+    color: var(--footer);
+}
+
+footer img {
+    max-width: 25px;
+    margin-bottom: 25px;
+}
+
+footer img:hover {
+    opacity: 0.6;
+}
+
+footer a {
+    margin: 15px;
+}
+
+footer h1 {
+    font-size: 12px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+footer p {
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    word-spacing: 30px;
+}
+
+
+
+/* ID's */
+
+
+#img1 {
+    max-width: 600px;
+    box-shadow: 0px 0px 5px white;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+#img2 {
+    max-width: 200px;
+}
+
+#img3 {
+    max-width: 400px;
+}
+
+#img4 {
+    max-width: 550px;
+    box-shadow: 0px 0px 5px white;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+#img5 {
+    min-width: 600px;
+    box-shadow: 0px 0px 5px white;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+
+/* Classes */
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    position: fixed;
+    top: 0;
+}
+
+.dropbtn img {
+    max-width: 30px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 110px;
+    margin-left: 22px;
+    z-index: 1;
+    float: left;
+    top: 50px;
+    position: fixed;
+    border-left: solid var(--corSecundária) 2px;
+}
+
+.dropdown-content a {
+    color: var(--text1);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: var(--text2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.text {
+    background-image: url(./djarin/dj4.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 60%;
+    height: 1300px;
+}
+
+.text h1 {
+    font-size: 24px;
+    color: var(--text1);
+    line-height: 40px;
+}
+
+.text p {
+    font-size: 16px;
+    color: var(--text2);
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+
+.text a {
+    text-decoration: underline var(--text2) dotted 2px;
+    color: var(--text2);
+}
+
+.content {
+    margin: 40px 130px 40px 130px;
+    max-width: 500px;
+    padding-bottom: 100px;
+    padding-left: 15px;
+}
+
+.razor {
+    margin: auto;
+    max-width: 1200px;
+    text-align: center;
+    display: block;
+}
+
+.razor a {
+    text-decoration: none;
+    color: var(--text1);
+}
+
+.razor h1 {
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    top: 0;
+    padding: 10px;
+    font-size: 35px;
+    border-bottom: solid var(--corSecundária) 2px;
+    max-width: 500px;
+}
+
+.razor p {
+    color: var(--text2);
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+
+.razor img {
+    max-width: 1000px;
+    text-align: center center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.razor2 {
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 250px;
+    padding: 10px;
+}
+
+.razor-btn {
+    min-width: 500px;
+    margin: 100px;
+    margin-top: 200px;
+    padding: 20px 100px;
+    background-color: transparent;
+    color: var(--text2);
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid var(--text2) 1px;
+}
+
+.razor-btn:hover {
+    color: var(--text1);
+    border-color: var(--text1);
+}
+
+.e-header {
+    background-image: url(./djarin/dj5.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: right;
+    max-width: 1400px;
+    width: 70%;
+    letter-spacing: 20px;
+    padding: 10px;
+    text-align: center center;
+    padding: 200px 120px;
+    color: var(--text2);
+}
+
+.e-header strong {
+    color: var(--text1);
+}
+
+.e-content {
+    background-color: var(--equip1);
+    border: solid var(--equip1) 2px;
+    border-radius: 12px;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.e-content img {
+    max-width: 120%;
+    right: 0;
+}
+
+.e-content h1 {
+    font-size: 40px;
+    color: var(--text1);
+    line-height: 42px;
+    max-width: 500px;
+}
+
+.e-content p {
+    font-size: 18px;
+    color: var(--text2);
+    line-height: 26px;
+    max-width: 500px;
+    left: 0;
+}
+
+.any {
+    padding: 70px;
+}
+
+
+.f-header,
+.t-header,
+.g-header {
+    background-image: none;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 0;
+    margin: 70px 0px 100px 0px;
+    color: var(--text1);
+}
+
+.f-content {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--equip1);
+    border: solid var(--equip1) 2px;
+    border-radius: 12px;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    height: 700px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    box-shadow: rgba(21, 21, 21, 0.5) 0px 10px 36px 0px, rgba(21, 21, 21, 0.4) 0px 0px 0px 1px;
+}
+
+.f-form {
+    display: flex;
+
+}
+
+.f-form input,
+.f-form textarea {
+    width: 350px;
+}
+
+.f-form select {
+    width: 391.6px;
+    height: 60px;
+}
+
+.f-input {
+    font-size: medium;
+    outline: unset;
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--corTerciaria);
+    border: 1px solid var(--corTerciaria);
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text1);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.f-input:hover {
+    background-color: var(--corSecundária);
+}
+
+.f-text {
+    color: var(--text1);
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.f-terms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text2);
+}
+
+.f-terms input {
+    width: fit-content;
+    background-color: var(--corSecundária);
+}
+
+.f-terms a {
+    text-decoration: underline;
+    color: var(--text2);
+}
+
+.f-button {
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    width: 400px;
+    background-color: var(--corSecundária);
+    border-radius: 100px;
+    box-shadow: rgba(64, 64, 64, .2) 0 -25px 18px -14px inset, rgba(64, 64, 64, .15) 0 1px 2px, rgba(64, 64, 64, .15) 0 2px 4px, rgba(64, 64, 64, .15) 0 4px 8px, rgba(64, 64, 64, .15) 0 8px 16px, rgba(64, 64, 64, .15) 0 16px 32px;
+    color: var(--text2);
+    cursor: pointer;
+    display: inline-block;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    font-size: 16px;
+    transition: all 250ms;
+}
+
+.f-button:hover {
+    box-shadow: rgba(64, 64, 64, .35) 0 -25px 18px -14px inset, rgba(64, 64, 64, .25) 0 1px 2px, rgba(64, 64, 64, .25) 0 2px 4px, rgba(64, 64, 64, .25) 0 4px 8px, rgba(64, 64, 64, .25) 0 8px 16px, rgba(64, 64, 64, .25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+    color: var(--text1);
+}
+
+.f-button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-img {
+    max-height: 720px;
+}
+
+.t-content {
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: var(--text2);
+    letter-spacing: 0.5px;
+    line-height: 34px;
+    background-color: var(--equip1);
+    border: solid var(--equip1) 2px;
+    border-radius: 12px;
+    display: block;
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    height: 700px;
+    box-shadow: rgba(21, 21, 21, 0.5) 0px 10px 36px 0px, rgba(21, 21, 21, 0.4) 0px 0px 0px 1px;
+}
+
+.g-header {
+    margin: 70px 0px 50px 0px;
+}
+
+.g-content {
+    padding: 20px 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: var(--text2);
+    letter-spacing: 0.5px;
+    line-height: 27px;
+}
+
+.g-content-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.g-content-2 img {
+    width: 700px;
+    border: 3px solid rgba(50, 50, 93, 0.25);
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.g-text {
+    margin: 70px 0px;
+    text-indent: 22px;
+}
+
+.g-grid {
+    background-color: var(--equip1);
+    border: 1px solid var(--equip1);
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.g-fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 4px;
+
+}
+
+.g-fotos-coluna {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 20px;
+
+}
+
+.g-fotos-coluna img {
+    margin-top: 20px;
+    vertical-align: middle;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
